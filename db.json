@@ -1340,6 +1340,24 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "triptomon",
+      "hp": "432",
+      "sprites": {
+        "front": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfEaoQ3f_uhXuRtvvzJ6Y3KZ3R7iuzA2Ss2g&usqp=CAU",
+        "back": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPq-1S2qwjgJFJjKSrUVxz54PsqsS89O3Q33eYDQdCpQ5wyWdnr6fCvAyksN53CNFuwWw&usqp=CAU"
+      },
+      "id": 151
+    },
+    {
+      "name": "triptomon",
+      "hp": "432",
+      "sprites": {
+        "front": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfEaoQ3f_uhXuRtvvzJ6Y3KZ3R7iuzA2Ss2g&usqp=CAU",
+        "back": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPq-1S2qwjgJFJjKSrUVxz54PsqsS89O3Q33eYDQdCpQ5wyWdnr6fCvAyksN53CNFuwWw&usqp=CAU"
+      },
+      "id": 152
     }
   ]
 }

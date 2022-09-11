@@ -1,20 +1,31 @@
-import React from "react";
+import React, {useState} from "react";
 import { Card } from "semantic-ui-react";
 
-function PokemonCard() {
+function PokemonCard({name, id, hp, frontImg, backImg}) {
+  const [count, setCount] = useState(1);
+
+
+
+  function handleImgClick() {
+    setCount(count + 1)
+  }
+
   return (
-    <Card>
+    <Card onClick={handleImgClick}>
       <div>
         <div className="image">
-          <img alt="oh no!" />
+          <img 
+            src={count % 2 === 0 ? backImg : frontImg}
+            alt={name}   
+          />
         </div>
         <div className="content">
-          <div className="header">POKEMON NAME HERE</div>
+          <div className="header">{name}</div>
         </div>
         <div className="extra content">
           <span>
             <i className="icon heartbeat red" />
-            POKEMON HP HERE hp
+            {hp}
           </span>
         </div>
       </div>
